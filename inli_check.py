@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import pathlib, requests
+import requests
 
 URLS = {
     "Paris":            "https://www.inli.fr/locations/offres/paris-departement_d:75?price_max=900",
@@ -12,9 +12,9 @@ URLS = {
 }
 
 EMPTY_MARKER = "Aucune annonce disponible"
-PAGE_MARKER  = "In'li"
-README  = pathlib.Path(__file__).parent / "README.md"
+PAGE_MARKER = "In'li"
 HEADERS = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) Firefox/130.0"}
+
 
 def check(url):
     try:
@@ -26,10 +26,15 @@ def check(url):
         return "⚠️ Page inattendue"
     return "⚪ Vide" if EMPTY_MARKER in r.text else "🟢 **Annonces disponibles**"
 
-lines = ["# Suivi In'li\n", "| Ville | État |", "|---|---|"]
-for name, url in URLS.items():
-    status = check(url)
-    print(f"{name}: {status}")
-    lines.append(f"| [{name}]({url}) | {status} |")
 
-README.write_text("\n".join(lines) + "\n")
+def section():
+    lines = ["## In'li\n", "| Ville | État |", "|---|---|"]
+    for name, url in URLS.items():
+        status = check(url)
+        print(f"[inli] {name}: {status}")
+        lines.append(f"| [{name}]({url}) | {status} |")
+    return "\n".join(lines) + "\n"
+
+
+if __name__ == "__main__":
+    print(section())
