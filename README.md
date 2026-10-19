@@ -16,13 +16,13 @@
 
 | Lieu | État |
 |---|---|
-| PARIS (75) | 🟢 **5 logement(s)** |
+| PARIS (75) | ⚪ Vide |
 | CLICHY (92110) | ⚪ Vide |
 | ST OUEN SUR SEINE (93400) | ⚪ Vide |
 | NEUILLY SUR SEINE (92200) | ⚪ Vide |
-| LEVALLOIS PERRET (92300) | 🟢 **1 logement(s)** |
+| LEVALLOIS PERRET (92300) | ⚪ Vide |
 | PANTIN (93500) | ⚪ Vide |
 | AUBERVILLIERS (93300) | ⚪ Vide |
 | LES LILAS (93260) | ⚪ Vide |
-| BAGNOLET (93170) | 🟢 **8 logement(s)** |
+| BAGNOLET (93170) | ⚪ Vide |
 | VINCENNES (94300) | ⚪ Vide |
