@@ -34,7 +34,7 @@ def search(session, lieu):
         "newSearch": "",
         "lbLieu": lieu,
         "nbLoyerMin": "",
-        "nbLoyerMax": "5000",
+        "nbLoyerMax": "900",
         "cdTypeBien[]": "Appartement",
         "nbSurfaceMin": "",
         "nbSurfaceMax": "",
