@@ -18,7 +18,7 @@
 |---|---|
 | PARIS (75) | ⚪ Vide |
 | CLICHY (92110) | ⚪ Vide |
-| ST OUEN SUR SEINE (93400) | ⚪ Vide |
+| ST OUEN SUR SEINE (93400) | 🟢 **1 logement(s), dès 879 €** |
 | NEUILLY SUR SEINE (92200) | ⚪ Vide |
 | LEVALLOIS PERRET (92300) | ⚪ Vide |
 | PANTIN (93500) | ⚪ Vide |
