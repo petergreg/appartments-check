@@ -16,7 +16,7 @@
 
 | Lieu | État |
 |---|---|
-| PARIS (75) | ⚪ Vide |
+| PARIS (75) | 🟢 **1 logement(s), dès 717 €** |
 | CLICHY (92110) | ⚪ Vide |
 | ST OUEN SUR SEINE (93400) | ⚪ Vide |
 | NEUILLY SUR SEINE (92200) | ⚪ Vide |
