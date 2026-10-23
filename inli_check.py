@@ -2,13 +2,16 @@
 import requests
 
 URLS = {
-    "Paris":            "https://www.inli.fr/locations/offres/paris-departement_d:75?price_max=900",
-    "Clichy":           "https://www.inli.fr/locations/offres/clichy_clichy?price_max=900",
-    "Saint-Ouen":       "https://www.inli.fr/locations/offres/saint-ouen-sur-seine_saint-ouen-sur-seine?price_max=900",
-    "Levallois-Perret": "https://www.inli.fr/locations/offres/levallois-perret_levallois-perret?price_max=900",
-    "Pantin":           "https://www.inli.fr/locations/offres/pantin_pantin?price_max=900",
-    "Bagnolet":         "https://www.inli.fr/locations/offres/bagnolet_bagnolet?price_max=900",
-    "Vincennes":        "https://www.inli.fr/locations/offres/vincennes_vincennes?price_max=900",
+    "Paris":            "https://www.inli.fr/locations/offres/paris-departement_d:75?price_max=900&area_min=20",
+    "Clichy":           "https://www.inli.fr/locations/offres/clichy_clichy?price_max=900&area_min=20",
+    "Saint-Ouen":       "https://www.inli.fr/locations/offres/saint-ouen-sur-seine_saint-ouen-sur-seine?price_max=900&area_min=20",
+    "Levallois-Perret": "https://www.inli.fr/locations/offres/levallois-perret_levallois-perret?price_max=900&area_min=20",
+    "Pantin":           "https://www.inli.fr/locations/offres/pantin_pantin?price_max=900&area_min=20",
+    "Bagnolet":         "https://www.inli.fr/locations/offres/bagnolet_bagnolet?price_max=900&area_min=20",
+    "Vincennes":        "https://www.inli.fr/locations/offres/vincennes_vincennes?price_max=900&area_min=20",
+    "Neuilly-sur-Seine": "https://www.inli.fr/locations/offres/neuilly-sur-seine_neuilly-sur-seine?price_max=900&area_min=20",
+    "Les Lilas": "https://www.inli.fr/locations/offres/les-lilas_les%20lilas?price_max=900&area_min=20",
+    "Aubervilliers": "https://www.inli.fr/locations/offres/aubervilliers_aubervilliers?price_max=900&area_min=20"
 }
 
 EMPTY_MARKER = "Aucune annonce disponible"
