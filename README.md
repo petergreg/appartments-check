@@ -16,13 +16,13 @@
 
 | Lieu | État |
 |---|---|
-| PARIS (75) | ⚪ Vide |
-| CLICHY (92110) | ⚪ Vide |
-| ST OUEN SUR SEINE (93400) | ⚪ Vide |
-| NEUILLY SUR SEINE (92200) | ⚪ Vide |
-| LEVALLOIS PERRET (92300) | ⚪ Vide |
-| PANTIN (93500) | ⚪ Vide |
-| AUBERVILLIERS (93300) | ⚪ Vide |
-| LES LILAS (93260) | ⚪ Vide |
-| BAGNOLET (93170) | ⚪ Vide |
-| VINCENNES (94300) | ⚪ Vide |
+| PARIS (75) | ⚠️ Erreur |
+| CLICHY (92110) | ⚠️ Erreur |
+| ST OUEN SUR SEINE (93400) | ⚠️ Erreur |
+| NEUILLY SUR SEINE (92200) | ⚠️ Erreur |
+| LEVALLOIS PERRET (92300) | ⚠️ Erreur |
+| PANTIN (93500) | ⚠️ Erreur |
+| AUBERVILLIERS (93300) | ⚠️ Erreur |
+| LES LILAS (93260) | ⚠️ Erreur |
+| BAGNOLET (93170) | ⚠️ Erreur |
+| VINCENNES (94300) | ⚠️ Erreur |
