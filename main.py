@@ -18,6 +18,21 @@ def statuses(markdown):
     return result
 
 
+def keep_last_known(new, before):
+    """Remplace les états ⚠️ par le dernier état connu (s'il n'était pas une erreur)."""
+    lines, section = [], ""
+    for line in new.splitlines():
+        if line.startswith("## "):
+            section = re.sub(r"\[(.*?)\]\(.*?\)", r"\1", line[3:]).strip()
+        elif line.startswith("|") and "⚠️" in line:
+            lieu = line.strip("|").rpartition("|")[0]
+            known = before.get((section, re.sub(r"\[(.*?)\]\(.*?\)", r"\1", lieu.strip())))
+            if known and "⚠️" not in known:
+                line = f"|{lieu}| {known} |"
+        lines.append(line)
+    return "\n".join(lines) + "\n"
+
+
 parts = ["# Suivi appartements\n"]
 for module in (inli_check, cdc_check):
     try:
@@ -30,6 +45,7 @@ new = "\n".join(parts)
 old = README.read_text() if README.exists() else ""
 
 before = statuses(old)
+new = keep_last_known(new, before)
 news = [f"{section} - {lieu} : {state.replace('**', '')}"
         for (section, lieu), state in statuses(new).items()
         if "🟢" in state and before.get((section, lieu)) != state]
