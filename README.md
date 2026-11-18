@@ -4,7 +4,7 @@
 
 | Ville | État |
 |---|---|
-| [Paris](https://www.inli.fr/locations/offres/paris-departement_d:75?price_max=900&area_min=20) | 🟢 **Annonces disponibles** |
+| [Paris](https://www.inli.fr/locations/offres/paris-departement_d:75?price_max=900&area_min=20) | ⚪ Vide |
 | [Clichy](https://www.inli.fr/locations/offres/clichy_clichy?price_max=900&area_min=20) | ⚪ Vide |
 | [Saint-Ouen](https://www.inli.fr/locations/offres/saint-ouen-sur-seine_saint-ouen-sur-seine?price_max=900&area_min=20) | ⚪ Vide |
 | [Levallois-Perret](https://www.inli.fr/locations/offres/levallois-perret_levallois-perret?price_max=900&area_min=20) | ⚪ Vide |
